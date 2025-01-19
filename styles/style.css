@@ -21,7 +21,7 @@
 font-weight: 700;
 max-width: 302px;
 /* line-height: 2.5rem; */
-margin-left: 200px;
+margin-left: 100px;
 padding-top: 30px;
 
 }
@@ -48,4 +48,28 @@ text-align: center;
 
 .header{
     margin: 0px;
+}
+
+/* banner  */
+.banner-title{
+    max-width: px;
+    max-height: 225px;
+    margin: 0 auto;
+}
+.banner-sibtitle{
+    text-align: center;
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+font-weight: 700;
+line-height: 60px;
+}
+.banner-description{
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    max-width: 800px;
+    margin: 0 auto;
+    max-height: 52px;
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+font-weight: 400;
 }
