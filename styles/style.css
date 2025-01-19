@@ -180,9 +180,32 @@ margin-top: -40px;
     font-size: 1.3rem;
     border: none;
     margin-top: 50px;
-    
-
 }
+    
+/* features responsiveness */
+@media  screen and (max-width:576px) {
+    .main{
+        max-width: 95vw;
+        margin: 0 auto;
+    }
+    .features-container1{
+        flex-direction: column-reverse;
+    }
+    .features-title1{
+        padding-left: 10%;
+    }
+    .features-description{
+        padding-left: 10%;
+    }
+    .btn-primary2{
+        margin-left: 20%;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+}
+/* features responsiveness */
+
+    
 /* features-enjoy */
 .features-enjoy{
     display: flex;
@@ -255,6 +278,36 @@ top: -80px;
 left: -70px;
 border: none;
 }
+/* features-enjoy rsponsive */
+@media screen and (max-width:576px) {
+ .features-enjoy{
+    flex-direction: column;
+ }
+ .features-title{
+    width: 100%;
+ }
+ .features-title> p{
+    padding: 0px;
+    padding-left: 7px;
+
+ }
+ .enjoy-features-text>p {
+    width: ;
+ }
+ .enjoy-features-text>h2, p{
+    width: 100%;
+}
+.btn-primary3{
+    position: relative;
+    left: 10px;
+    bottom: 15px;top: -40px;
+    width: 180px;
+    height: 90px;}
+}
+/* features-enjoy rsponsive */
+
+    
+    
 
 /* fact section */
 .fact-title{
@@ -298,6 +351,22 @@ margin-top: 120px;
 .fact-card> img{
     align-self: center;
 }
+/* fact responsiveness */
+@media screen and (max-width:576px) {
+    .fact-description{
+        margin-left: 10px;width: 100%;
+    }
+    .fact-container{
+        flex-direction: column;justify-content: center;
+    }
+    .fact-card{
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+}
+/* fact responsiveness */
+    
+
 .sponsor{
     width: 510px;
 height: 120px;
@@ -326,6 +395,27 @@ color: rgb(114, 114, 114);
     width: 620px;
 height: 23px;
 }
+/* sponsor responsive */
+@media screen and (max-width:576px) {
+    .sponsor-title{ 
+        margin-left: 0px;text-align: left;
+    }
+    .sponsor-fig-container{
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 20px
+    }
+    .sponsor-desc{
+        width: 200px;
+    }
+
+    .sponsor{
+        margin-left: 10px;
+    }
+    
+}
+/* sponsor responsive */
+
 footer{
     max-width: 1300px;
     margin: 0 auto;
@@ -343,3 +433,12 @@ footer{
     padding-top: 40px;
 }
     
+@media screen and (max-width:576px) {
+    .foot{
+        width: 100vw;
+    }
+    .footp{
+        padding-left: 5px;
+        width: 100%;
+    }
+}
