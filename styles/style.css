@@ -3,6 +3,10 @@
     margin: 0;
 }
 /* shared style */
+.nav-item:hover,
+.btn-primary:hover{
+    background-color: black;
+}
 .menu{
     display: flex;
     gap: 25px;
@@ -73,3 +77,19 @@ line-height: 60px;
     font-size: 1rem;
 font-weight: 400;
 }
+.btn-primary{
+    width: 150px;
+height: 55px;
+border-radius: 8px;
+background: rgb(255, 144, 14);
+border: none;
+color: white;
+margin-left: 650px;
+margin-bottom: 50px;
+}
+.btn{
+    
+}
+
+
+
